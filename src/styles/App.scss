@@ -1,0 +1,470 @@
+* {
+  box-sizing: border-box;
+  font-family: "Roboto', sans-serif";
+}
+
+body {
+  // width: 100%;
+  background: #ede6db;
+}
+
+.title{
+	font-size: 30px;
+	color: #936646;
+}
+
+@media all and (min-width:768px){
+	.title{
+		font-size: 50px;
+	}
+}
+
+@media all and (min-width:1280px){
+	.title{
+		font-size: 60px;
+	}
+	
+}
+
+
+.value {
+  text-align: center;
+}
+
+@media all and (min-width: 768px){
+	.value{
+		font-size: 25px;
+	}
+}
+
+@media all and (min-width:1280px){
+	.value{
+		font-size: 30px;
+	}
+}
+
+// título
+
+.logo {
+  width: 60px;
+  height: 60px;
+  margin-top: 20px;
+
+}
+
+@media all and (min-width:768px){
+	.logo{
+	width: 90px;
+	height: 90px;
+	}
+}
+
+@media all and (min-width:1280px){
+	.logo{
+		width: 100px;
+		height: 100px;
+		margin-top: 40px;
+	}
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #e9d5da;
+}
+
+
+@media all and (min-width:1280px){
+.containerWeb{
+	display: flex;
+	justify-content: space-evenly;
+	}
+}
+
+// Input de búsqueda
+
+.city1 {
+  font-size: 30px;
+}
+
+@media all and (min-width: 768px){
+	.city1 {
+	font-size: 50px;
+	}
+}
+
+.inputContainerBox {
+  display: flex;
+  justify-content: center;
+}
+
+@media all and (min-width:1280px){
+	.inputContainerBox{
+		display:flex;
+		grid-column: span 2/ span 2;
+	}
+}
+
+.inputContainer {
+  align-items: center;
+  background-color: #e9d3c1;
+  width: 380px;
+  height: 280px;
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
+  justify-content: center;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  align-items: center;
+  border-radius: 15px;
+}
+
+@media all and (min-width: 768px){
+	.inputContainer {
+	gap: 20px;
+    width: 700px;
+    height: 400px;
+	}
+}
+
+@media all and (min-width:1280px){
+	.inputContainer{
+		width: 1200px;
+		
+	}
+}
+
+.input1 {
+  width: 300px;
+  height: 30px;
+  font-size: 16px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  background-color: #e9c69a;
+  border: 2px solid #b55252;
+}
+
+@media all and (min-width: 768px){
+	.input1 {
+	width: 500px;
+    height: 60px;
+    border-radius: 20px;
+    font-size: 30px;
+    margin-bottom: 50px;
+	}
+}
+
+.btn {
+  width: 200px;
+  height: 40px;
+  font-size: 16px;
+  border-radius: 10px;
+  background-color: #e9c69a;
+  border: 2px solid #b55252;
+}
+
+@media all and (min-width: 768px){
+	.btn{
+	width: 300px;
+    height: 45px;
+    font-size: 24px;
+    margin-bottom: 40px;
+	}
+}
+
+.inputSearch {
+  text-align: center;
+  font-size: 18px;
+}
+
+.btnSearch {
+  width: 142px;
+  height: 36px;
+  font-size: 10px;
+}
+
+//información principal
+
+.weather1 {
+
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media all and (min-width:768px){
+	.weather1{
+		flex-direction: row;
+		align-content: stretch;
+		justify-content: space-evenly;
+		align-items: baseline;
+		margin-bottom: 30px;
+ 	}
+}
+
+@media all and (min-width:1280px){
+	.weather1{
+		flex-direction: column;
+		align-items: center;
+	}
+}
+
+.weatherCity {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #e9d3c1;
+  width: 380px;
+  height: 350px;
+  grid-column: span 2 / span 2;
+  border-radius: 15px;
+  line-height:0;
+}
+
+@media all and (min-width:768px){
+	.weatherCity{
+		width: 450px;
+		height: 450px;
+		background-color: #96c8b8;
+	}
+}
+
+@media all and (min-width: 1280px){
+	.weatherCity{
+		width: 1200px;
+	}
+}
+
+.city {
+  font-size: 40px;
+  text-align: center;
+  padding-top: 20px;
+}
+
+@media all and (min-width:768px){
+	.city{
+		font-size: 50px;
+	}
+}
+
+.icon1 {
+  width: 150px;
+  height: 150px;
+}
+
+@media all and (min-width:768px){
+	.icon1{
+		width: 200px;
+		height: 200px;
+	}
+}
+
+.temp {
+  font-size: 40px;
+}
+
+@media all and (min-width:768px){
+	.temp{
+		font-size: 50px;
+	}
+}
+
+.containerTemp{
+	display: flex;
+    gap: 20px;
+}
+
+@media all and (min-width:768px){
+	.containerTemp{
+		
+		flex-direction: column;
+	}
+}
+
+.iconContainer1 {
+  background-color:#be7d7d;
+  width: 180px;
+  height: 300px;
+  margin-top: 20px;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.min{
+	background-color: #a0a0ce;
+}
+
+
+
+@media all and (min-width:768px){
+	.iconContainer1{
+	width: 200px;
+    height: 200px;
+	line-height: 0;
+
+	}
+}
+
+@media all and (min-width:1280px){
+	.iconContainer1{
+		width: 600px;
+    	height: 500px;
+		gap:15px;
+		margin-top: 40px;
+
+	}
+}
+
+.value1 {
+  font-size: 18px;
+  text-align: center;
+}
+
+@media all and (min-width:768px){
+	.value1{
+		font-size: 22px;
+	}
+}
+
+@media all and (min-width:1280px){
+	.value1{
+		font-size: 40px;
+	}
+}
+
+.iconTemp {
+  width: 30px;
+  height: 30px;
+}
+
+@media all and (min-width:768px){
+	.iconTemp{
+		width: 50px;
+    	height: 50px;
+	}
+}
+
+@media all and (min-width: 1280px){
+	.iconTemp{
+		width: 80px;
+    	height: 80px;
+	}
+}
+
+// Información adicional
+
+.container{
+	display: flex;
+    justify-content: space-evenly;
+}
+
+.iconContainer2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #e2c5b2;
+  width: 130px;
+  height: 160px;
+  border-radius: 30px;
+}
+
+
+@media all and (min-width: 768px){
+	.iconContainer2{
+	width: 230px;
+    height: 247px;
+	display: flex;
+    justify-content: center;
+    line-height: 0;
+	gap:10px;
+	}
+}
+
+@media all and (min-width:1280px){
+	.iconContainer2{
+		width: 276px;
+		height: 343px;
+	}
+}
+
+.temperature {
+  font-size: 20px;
+  text-align: center;
+}
+
+@media all and (min-width:768px){
+
+	.temperature{
+		font-size: 30px;
+	}
+
+}
+
+.icon {
+  display: flex;
+  width: 30px;
+  margin-top: 20px;
+}
+
+@media all and (min-width:768px){
+
+	.icon{
+		width: 50px;
+	}
+	
+}
+
+.iconTemp {
+  display: flex;
+}
+
+@media all and (min-width:768px){
+	
+}
+
+.weather2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: 10px;
+}
+
+@media all and (min-width:1280px){
+	.weather2{
+		margin-top: 40px;
+	}
+}
+
+// Footer
+
+.footer {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-around;
+  height: 80px;
+  background-color: #918881;
+  color: white;
+  text-align: end;
+}
+
+.copyright{
+	font-size: 20px;
+}
+
+
+@media all and (min-width:768px){
+	.footer{
+		height: 100px;
+	}
+}
+
+	.copyright{
+		font-size: 30px;
+		margin-top:30px;
+}
+
